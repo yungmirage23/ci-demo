@@ -1,0 +1,28 @@
+{
+  "name": "ci-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint app.js",
+    "lint:html": "htmlhint index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yungmirage23/ci-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/yungmirage23/ci-demo/issues"
+  },
+  "homepage": "https://github.com/yungmirage23/ci-demo#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.0",
+    "globals": "^17.4.0",
+    "htmlhint": "^1.9.2"
+  }
+}
